@@ -1,0 +1,9 @@
+model Post {
+    id Int @id @default(autoincrement())
+    nome String
+}
+
+model Produtos {
+    id Int @id @default(autoincrement())
+    nome String
+}
