@@ -12,3 +12,8 @@ datasource db {
   provider = "sqlite"
   url      = "file:./produtos.db"
 }
+
+model Produtos {
+  id Int @id @default(autoincrement())
+  nome String
+}
